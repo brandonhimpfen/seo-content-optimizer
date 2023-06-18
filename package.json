@@ -1,0 +1,24 @@
+{
+  "name": "seo-content-optimizer",
+  "version": "1.0.0",
+  "description": "Optimize website content for SEO by analyzing keyword usage, readability, and on-page optimization factors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonhimpfen/seo-content-optimizer.git"
+  },
+  "keywords": [
+    "seo",
+    "content",
+    "optimizer"
+  ],
+  "author": "Brandon Himpfen",
+  "license": "MIT",
+  "dependencies": {
+    "flesch-kincaid": "^1.0.0",
+    "automated-readability": "^1.0.0"
+  }
+}
